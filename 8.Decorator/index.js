@@ -11,6 +11,7 @@ var walkman = new InventoryItem("Walkman", 29.99);
 var necklace = new InventoryItem("Necklace", 9.99);
 
 var gold_necklace = new GoldenInventoryItem(necklace);
+
 var diamond_gold_necklace = new PlatinumInventoryItem(gold_necklace);
 
 var diamond_walkman = new PlatinumInventoryItem(walkman);
